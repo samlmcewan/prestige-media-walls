@@ -3,6 +3,12 @@
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2.5rem;
+}
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
@@ -235,4 +241,43 @@
     top: 0;
     left: 0;
     z-index: 0;
+}
+
+/*--------------------------------------------------------------
+# Our Doors - Homepage
+--------------------------------------------------------------*/
+.our-doors-home a.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-top: 2.5rem;
+}
+.our-doors-home a.card svg {
+    width: 75%;
+    margin-bottom: 1.5rem;
+}
+.our-doors-home p {
+    text-transform: uppercase;
+    font-size: 1.875rem;
+}
+.our-doors-home a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.our-doors-home a.card p:nth-of-type(2) {
+    font-size: 1rem;
+    transition: all .3s;
+    margin-top: -.5rem;
+}
+.our-doors-home a.card svg polyline {
+    transition: all .3s;
+}
+.our-doors-home a.card:hover svg polyline:nth-of-type(1) {
+    fill: var(--gold2)!important;
+}
+
+.our-doors-home a.card:hover p:nth-of-type(2) {
+    transform: translateY(-1rem);
 }
