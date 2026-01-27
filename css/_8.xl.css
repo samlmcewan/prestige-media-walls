@@ -1,0 +1,26 @@
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    #main-nav .nav-item {
+        border: none;
+    }
+    #main-nav .active {
+        border-bottom: thin solid var(--gold2);
+    }
+    #main-nav .nav-item a {
+        transition: all 0.3s;
+    }
+    #main-nav .nav-item {
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+    }
+    #main-nav .nav-item a:hover {
+        color: var(--black);
+        opacity: 0.7;
+    }
+    #main-nav .active a:hover {
+        color: var(--gold2);
+        opacity: 1;
+    }
+}
+        
