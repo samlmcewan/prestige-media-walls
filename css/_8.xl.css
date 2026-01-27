@@ -22,5 +22,9 @@
         color: var(--gold2);
         opacity: 1;
     }
+     .quote .row {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
 }
         
