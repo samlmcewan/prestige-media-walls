@@ -4,4 +4,7 @@
     .hero .hero-text {
         text-align: left;
     }
+    .hero .img-container.swiper {
+        margin-right: 0!important;
+    }
 }
