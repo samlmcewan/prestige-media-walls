@@ -281,3 +281,25 @@ h2 {
 .our-doors-home a.card:hover p:nth-of-type(2) {
     transform: translateY(-1rem);
 }
+
+/*--------------------------------------------------------------
+# Quote
+--------------------------------------------------------------*/
+.quote {
+    background-color: var(--black);
+}
+.quote .img-col {
+    position: relative;
+}
+.quote .img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+}
+.quote .img-text p {
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 0;
+}
