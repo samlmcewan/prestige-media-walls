@@ -3,12 +3,19 @@
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+body {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
 h1 {
     font-size: 3rem;
+    text-transform: uppercase;
 }
 h2 {
     font-size: 2.5rem;
 }
+
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
@@ -31,12 +38,16 @@ h2 {
     margin-right: 2rem;
     margin-left: 2rem;
 }
+.top-bar a:hover svg path {
+    fill: var(--gold1)!important;
+}
+
+.top-bar a svg path {
+    transition: all 0.3s;
+}
 /*--------------------------------------------------------------
 # Main Navigation
 --------------------------------------------------------------*/
-.nav-outer {
-    /* background-color: var(--black); */
-}
 
 .navbar-toggler {
     border: none;
@@ -652,4 +663,12 @@ footer .fa-chevron-right {
 }
 .sub-footer span {
     display: inline-block;
+}
+
+#footer h3 {
+    text-transform: uppercase;
+}
+#footer .logo-top {
+    width: 10rem;
+    height: 10rem;
 }
