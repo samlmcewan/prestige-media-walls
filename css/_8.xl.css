@@ -26,5 +26,45 @@
         padding-top: 5rem;
         padding-bottom: 5rem;
     }
+    .img-section {
+        max-height: 105vh;
+        overflow: hidden;
+    }
+    /* Footer - XLarge Devices */
+footer, footer a {
+    font-size: 1.125rem;
+}
+.shfooter .collapse {
+    display: block;
+    }
+    footer .fa-chevron-right {
+    display: inline-block;
+    }
+    footer ul li {
+    margin-bottom: 10px;
+    
+    }
+    footer ul li span {
+        display: inline-block;
+    }
+    footer ul li a:hover span {
+        animation: arrow-right 0.3s linear forwards; 
+              
+          }
+      
+      @keyframes arrow-right {
+        from {
+          transform: translateX(0px); }
+        to {
+          transform: translateX(2px); } 
+          
+      }
+    
+      #footer .footer-title {
+        font-size: 1.5rem;
+      }
+      .footer-logo-desktop {
+        margin-top: -1rem;
+      }
 }
         
