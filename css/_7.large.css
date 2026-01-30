@@ -12,7 +12,10 @@
         margin-right: 0!important;
     }
     .info .info-text {
-        text-align: left;
+        text-align: right;
+    }
+    .info .info-text h2 span {
+        margin-left: auto;
     }
     .info .img-container.swiper {
         margin-left: 0!important;

@@ -66,6 +66,10 @@ footer, footer a {
       .footer-logo-desktop {
         margin-top: -1rem;
       }
+      
+      .quote .img-col {
+        padding: 9rem 0;
+      }
    
 }
         

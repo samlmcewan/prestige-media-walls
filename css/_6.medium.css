@@ -8,7 +8,11 @@
         font-size: .75rem;
     }
     .quote .img-text p {
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+   
+    .info .info-text h2 {
+        font-size: 5rem;
     }
     .process .card-process svg {
         width: 50%;
