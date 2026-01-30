@@ -1,8 +1,12 @@
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
+    #main-nav .logo-top {
+        width: 8rem;
+        height: 8rem;
+    }
     .hero .hero-text {
-        text-align: left;
+        text-align: right;
     }
     .hero .img-container.swiper {
         margin-right: 0!important;

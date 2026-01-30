@@ -3,4 +3,8 @@
         width: 35rem;
         height: 35rem;
     }
+    #main-nav .logo-top {
+        width: 9rem;
+        height: 9rem;
+    }
 }

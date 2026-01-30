@@ -4,16 +4,17 @@
 # Typography
 --------------------------------------------------------------*/
 body {
-    font-family: "Jost", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+    font-family: "Barlow", sans-serif;
+    /* font-family: "Lexend", sans-serif; */
 }
 h1 {
     font-size: 3rem;
     text-transform: uppercase;
+    font-weight: 700;
 }
 h2 {
     font-size: 2.5rem;
+    font-weight: 700;
 }
 
 /*--------------------------------------------------------------
@@ -179,8 +180,8 @@ h2 {
     }
 
     #main-nav .logo-top {
-        width: 6rem;
-        height: 6rem;
+        width: 7rem;
+        height: 7rem;
     }
 /*--------------------------------------------------------------
 # Hero
@@ -206,15 +207,23 @@ h2 {
 }
 .hero .hero-text {
     padding: 5rem 0 0 0;
-    text-align: center;
+    text-align: right;
 }
 .hero .hero-text h1 {
-    font-weight: 600;
-    font-size: 3rem;
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: var(--white);
 
 }
 .hero .hero-text p {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.hero .hero-link a {
+    text-decoration: none;
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: 400;
 }
 .hero .img-col {
   display: flex;
@@ -263,7 +272,7 @@ h2 {
     justify-content: center;
     align-items: center;
     border: none;
-    margin-top: 2.5rem;
+    margin-top: 3rem;
 }
 .our-doors-home a.card svg {
     width: 75%;
@@ -278,7 +287,16 @@ h2 {
     color: var(--black);
 }
 
+.our-doors-home a.card p:nth-of-type(1) {
+        margin-bottom: -0.5rem;
+        font-family: "Lexend", sans-serif;
+        color: var(--gold2);
+}
 .our-doors-home a.card p:nth-of-type(2) {
+        font-family: "Lexend", sans-serif;
+        opacity: 0.75;
+}
+.our-doors-home a.card p:nth-of-type(3) {
     font-size: 1rem;
     transition: all .3s;
     margin-top: -.5rem;
@@ -290,8 +308,13 @@ h2 {
     fill: var(--gold2)!important;
 }
 
+.our-doors-home a.card:hover p:nth-of-type(3) {
+    transform: translateY(-0.5rem);
+    color: var(--gold2);
+}
 .our-doors-home a.card:hover p:nth-of-type(2) {
-    transform: translateY(-1rem);
+    opacity: 1;
+    color: var(--gold2);
 }
 
 /*--------------------------------------------------------------
@@ -310,10 +333,14 @@ h2 {
     transform: translate(-50%, -50%);
     z-index: 99999;
 }
+.quote .img-text h2 {
+    color: var(--white);
+}
 .quote .img-text p {
     color: var(--white);
     text-align: center;
     margin-bottom: 0;
+    font-size: 0.875rem;
 }
 
 /*--------------------------------------------------------------
